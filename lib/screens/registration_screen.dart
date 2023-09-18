@@ -8,6 +8,8 @@ import 'home_screen.dart';
 class RegistrationScreen extends StatefulWidget {
   static const String id = 'registration_screen';
 
+  const RegistrationScreen({super.key});
+
   @override
   _RegistrationScreenState createState() => _RegistrationScreenState();
 }
