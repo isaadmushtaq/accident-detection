@@ -30,9 +30,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   ),
                 ),
                 const Text(
-                  'Flash Chat',
+                  'IOT Based ADS',
                   style: TextStyle(
-                      fontSize: 45.0,
+                      fontSize: 30.0,
                       fontWeight: FontWeight.w100,
                       color: Colors.black),
                 ),
