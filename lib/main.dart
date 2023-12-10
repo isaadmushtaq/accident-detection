@@ -14,7 +14,6 @@ Future<void> main () async {
   runApp(const FlashChat());
 }
 
-
 class FlashChat extends StatelessWidget {
   const FlashChat({super.key});
 
@@ -22,14 +21,12 @@ class FlashChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
       initialRoute: WelcomeScreen.id,
       routes: {
         WelcomeScreen.id : (context) => WelcomeScreen(),
         LoginScreen.id : (context) => LoginScreen(),
         RegistrationScreen.id : (context) => RegistrationScreen(),
         HomeScreen.id : (context) => HomeScreen(),
-
       },
     );
   }
