@@ -37,3 +37,14 @@ const kTextFieldDecoration =  InputDecoration(
     borderRadius: BorderRadius.all(Radius.circular(32.0)),
   ),
 );
+
+
+//---------------------- Home Screen--------------------------
+
+ BoxDecoration kHomeScreenContainerDecoration = BoxDecoration(
+  border: Border.all(
+    color: Colors.black,
+    width: 1,
+  ),
+   borderRadius: const BorderRadius.all(Radius.circular(10)),
+);
